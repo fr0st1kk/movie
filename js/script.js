@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
         films.forEach((film, i) => {
             parent.innerHTML += `
-                <li class="promo__interactive-item">${i + 1} ${film}
+                <li class="promo__interactive-item">${i + 1 + "."} ${film}
                     <div class="delete"></div>
                 </li>
             `;
